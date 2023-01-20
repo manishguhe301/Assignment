@@ -1,0 +1,72 @@
+.CategoryTitle:hover {
+  color: blue;
+}
+
+.tooltipcontent {
+  visibility: hidden;
+  min-width: 480px;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+.LastToolTip {
+  visibility: hidden;
+  min-width: 480px;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 2;
+  margin-left: -320px;
+}
+
+.tooltip:hover .tooltipcontent {
+  visibility: visible;
+}
+
+.tooltip:hover .LastToolTip {
+  visibility: visible;
+}
+
+.sublist {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.leftList {
+  height: 30px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.leftList:hover {
+  color: blue;
+}
+
+.sub-icons {
+  visibility: hidden;
+}
+.leftList:hover .sub-icons {
+  visibility: visible;
+}
+
+.rightList {
+  list-style: none;
+  height: 30px;
+  padding-top: 15px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.rightList:hover {
+  color: blue;
+}
+
+.category:hover {
+  color: blue;
+}
+
+.categoryMain:hover .categoryIcon {
+  transform: rotate(180deg);
+}
